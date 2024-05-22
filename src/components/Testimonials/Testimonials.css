@@ -1,0 +1,169 @@
+.testimonial-container {
+    padding: 50px 50px;
+    border: 2px solid transparent; /* Set a transparent solid border */
+    background-image: linear-gradient(180deg, #fdc50f 26.71%, #fb982f 99.36%);; /* Define gradient colors */
+    border-image: linear-gradient(to right, #ff8a00, #e52e71); /* Apply gradient as border image */
+    border-image-slice: 1; /* Ensure the entire border is filled with the gradient */
+    border-width: 5px; /* Set the width of the border */
+    border-style: solid; 
+    /* Use solid border style */
+    margin-bottom: 67px;
+}
+
+  .testimonial {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; /* Align items to the start */
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: transform 0.3s ease;
+    height: 170px;
+  width: auto;
+} 
+  
+  
+  .testimonial:hover {
+    transform: translateY(-3px);
+  }
+  
+ .prf-img img{
+    width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-bottom: -10px;
+  align-self: flex-start;
+  margin-bottom: 10px;
+  }
+  
+  .info {
+    width: 100%; /* Occupy full width */
+    text-align: left; /* Align text to the left */
+    margin-bottom: 5px;
+    
+  }
+  
+  .prf-info h3 {
+    font-size: 16px;
+    position: absolute;
+    top: 0;
+    left: 40%; /* Position the left edge of the h3 at the horizontal center */
+    transform: translateX(-50%); /* Center the h3 horizontally */
+    margin-top: 30px;
+    margin-left: 20px; 
+    font-weight: bold;/* Adjust the margin from the top */
+}
+
+  
+  .prf-info p  {
+  
+    color: #777;
+    margin-bottom: -19px;
+    font-size: 12px;
+    position: absolute;
+    top: -29px;
+    left: 40%;
+    transform: translateX(-50%);
+    margin-top: 89px;
+    margin-left: 20px;
+  }
+  
+  .prf-para h5{
+    font-size: 13px;
+    color: #777;
+    font-style: italic;
+    margin-bottom:0px 0px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 100px;
+  }
+
+  
+  .prf-rating {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    top: 110px;
+  }
+  
+  .prf-rating span {
+    margin-top: 20px;
+    color: gold;
+    font-size: 15px;
+    margin-right: 5px;
+  }
+  
+  .social-icons {
+    
+    margin-left: 75%;
+  
+  margin-top: -27px;
+  display: flex;
+  position: absolute;
+  top: 163px;
+ /* color: #fff; */
+    
+  }
+  
+  .social-icons .icon1  {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #555;
+    margin-bottom: 30px;
+    
+  }
+  .social-icons .icon2 {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #555;
+    margin-bottom: 30px;
+    position: absolute;
+  left: 23px;
+  }
+  
+  
+  /* Swiper Slider */
+  .swiper-container {
+    margin-top: 20px;
+    position: relative;
+  }
+  
+  .swiper-pagination {
+    bottom: 10px;
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #888;
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #555;
+  }
+  
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #555;
+    font-size: 24px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+  }
+  
+  .swiper-button-prev {
+    left: 10px;
+  }
+  
+  .swiper-button-next {
+    right: 10px;
+  }
+  @media screen and (max-width: 480px) {
+    .testimonial-container{
+      margin-bottom: 67px;
+    }
+    
+    }
+
+  
